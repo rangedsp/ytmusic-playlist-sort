@@ -14,7 +14,7 @@ To get it to work, the rough steps are:
 
 0. `pip install ytmusicapi` (using Python 3)
 1. Grab the cookies from your browser session as [per instruction](https://ytmusicapi.readthedocs.io/en/latest/setup.html#authenticated-requests)
-2. Run the setup call to store auth in a local json file
+2. [Run the setup call](https://ytmusicapi.readthedocs.io/en/latest/setup.html#using-the-headers-in-your-project) to store auth in a local json file
 3. Change the playlist ID in `playlist.txt` to your playlist. It will be in the URL when you visit the playlist in a web browser. E.g. *https://music.youtube.com/playlist?list=PLUKStexm-HN_oXN2zUwnCgmiWzM9BVGoG* , in this case the ID is `PLUKStexm-HN_oXN2zUwnCgmiWzM9BVGoG`
 4. Run either `python remove-dupe.py` or `python sort-playlist.py` 
 
